@@ -1,0 +1,7 @@
+{  
+    "url": "https://upsa.epam.com/workload/rest/",
+    "path": {
+      "oauth": "oauth/token/",
+      "employee": "v3/employees/"
+    }
+}

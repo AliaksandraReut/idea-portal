@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" data-ng-app="tp" data-ng-controller="AppCtrl">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>UXTalk portal</title>
+  <link rel="stylesheet" type="text/css" href="/idea_static/css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="/idea_static/css/style.css"/>
+  <!-- we probably need more control here -->
+  <base href="/idea"></base>
+</head>
+<body ng-cloak>
+  <!-- Begin page content -->
+  <div ng-controller="mainController">
+      <div class="container">
+          <div class="clearfix">
+              <div class="authorizationBlock">
+                  <form class="form-inline pull-right" role="form" ng-if="!global.isAuthN && !authInProgress"
+                        data-ng-submit="signin();">
+                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email"
+                             required
+                             data-ng-model="auth.login">
+                      <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password"
+                             required
+                             data-ng-model="auth.password"/>
+                      <button type="submit" class="btn btn-default"
+                              data-ng-disabled="loginForm.$invalid"></button>
+                  </form>
+                  <span class="waitingText" data-ng-if="authInProgress">Please wait...</span>
+                  <span class="waitingText">{{errorWithCredentials}}</span>
+                  <div ng-if="global.isAuthN">
+                      <div class="smallAvatar">
+                          <img data-ng-src="idea_static/images/users/{{global.currentUser.photo}}">
+                      </div>
+                      <div class="personInfo">
+                          <div class="personName" data-ng-bind="global.currentUser.name"></div>
+                          <a href="" class="btn btn-danger" class="personName" data-ng-click="logout();">Log out</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nearestTalkWrapper">
+              <div data-ng-if="tt.type!='techtalk'" class="talkTitle">
+                  В ближайшее время ничего не предвидится!
+              </div>
+              <a href="#/show/{{tt._id}}">
+              <div data-ng-if="tt.type=='techtalk'" class="nearestTalk">
+                  <div class="whereInfo">{{tt.ttLector.name}}</div>
+                  <div ng-show="!tt.ttLector" class="whereInfo">Дискуссия</div>
+                  <div class="whereInfo">{{tt.ttDate| date: 'dd-MM-yyyy'}}, {{tt.ttTime}} - {{tt.ttLocation}}</div>
+                  <div class="talkTitle">
+                      <div class="bigAvatar">
+                          <span ng-show="!!tt.ttLector">
+                            <img ng-src="idea_static/images/users/{{tt.ttLector.photo}}">
+                          </span>
+                          <span ng-show="!tt.ttLector">
+                            <img ng-src="idea_static/images/conversation.png">
+                          </span>
+                      </div>
+                      <div class="talkTitle">{{tt.ideaText}}</div>
+                  </div>
+
+                  <div class="nearestTalkComments">
+                          <span style=" cursor: pointer">
+                              <span class="yellowComment"></span>{{tt.comments | countComments}}
+                          </span>
+                  </div>
+              </div>
+              </a>
+          </div>
+          <div class="clearfix allIdeasContainer">
+              <a id="addIdea" ng-click="openAddIdea = true">
+                  <div class="pencilPic"></div>
+                  <div class="addButtonText">I have a great idea!</div>
+              </a>
+              <a ng-repeat="idea in ideasList" href="#/show/{{idea._id}}" class="ideaBlock">
+                  <div class="ideaWrap" ng-init="idea.ideaIndex = $index">
+                      <div class="contentWrap">
+                          <div class="contentIdea">
+                              {{idea.ideaText}}
+                          </div>
+                          <div class="socialBlock clearfix">
+                              <span class="likePic" ng-click="toggleLike($event, $index)">
+                                  {{idea.likes.length}}
+                              </span>
+                              <span class="commentPic">{{idea.comments.length}}</span>
+                          </div>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div id="addIdeaContainer" ng-hide="!openAddIdea" class="ng-hide">
+          <div class="overlay"></div>
+          <div class="popupContainerWrapper">
+              <div class="popupContainer container">
+                  <span class="closePopup" ng-click="openAddIdea=false"></span>
+                  <div ng-show="!global.isAuthN" class="addNewIdeaText">
+                      Вы не авторизованы, поэтому не можете добавлять идеи. Авторизуйтесь, пожалуйста!
+                  </div>
+                  <form ng-show="global.isAuthN" ng-submit="addIdea()">
+                      <textarea name="" ng-model="ideaText" class="addNewIdeaText" autofocus ></textarea>
+                      <input type="submit" class="submitIdeaButton" value="Поделиться&#10;идеей!">
+                  </form>
+              </div>
+          </div>
+      </div>
+      <div ng-view></div>
+  </div>
+
+  <script src="/idea_static/js/core.js"></script>
+  <script src="/idea_static/js/app.js"></script>
+  <script src="/idea_static/js/services/helper.js"></script>
+  <script src="/idea_static/js/services/auth-service.js"></script>
+  <script src="/idea_static/js/services/ideas.js"></script>
+  <script src="/idea_static/js/controllers/idea-controller.js"></script>
+</body>
+</html>

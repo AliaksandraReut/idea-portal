@@ -1,0 +1,568 @@
+@font-face {
+    font-family: 'OpenSans_Semibold';
+    src: url('../fonts/OpenSans-Semibold.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans_Regular';
+    src: url('../fonts/OpenSans.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans_Light';
+    src: url('../fonts/OpenSans-Light.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans_Bold';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+    url('../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*Common*/
+body{
+    background: #949999;
+    font-family: 'OpenSans_Semibold', Arial, san-serif;
+    color: #222629;
+}
+.container{
+    max-width: 1250px;
+    height: 100%;
+    margin: auto;
+    padding: 0 25px;
+}
+
+.smallAvatar{
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: transparent;
+}
+.smallAvatar img{
+    width: 25px;
+    margin-top: -2px;
+}
+.bigAvatar{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: transparent;
+}
+.bigAvatar img{
+    width: 100px;
+    margin-top: -5px;
+}
+
+/*Authorization Block*/
+
+.authorizationBlock{
+    float: right;
+    margin-top: 35px;
+}
+.personInfo{
+    padding-left: 10px;
+    float: left;
+    line-height: 25px;
+    position: relative;
+}
+.personInfo a{
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 10px;
+    background: rgba(251, 251, 251, 0.6);
+    font-size: 13px;
+    padding-right: 20px;
+    text-align: right;
+    text-decoration: none;
+    color: #000;
+}
+.personName{
+    font-size: 13px;
+    padding-right:20px;
+    color: #fff;
+    position: relative;
+}
+.personName:after{
+    content: '';
+    position: absolute;
+    right: 2px;
+    top: 11px;
+    border: 5px solid transparent;
+    border-top: 5px solid #fcda04;
+}
+.personInfo:hover a{
+    display: block;
+}
+
+.authorizationBlock input{
+    float: left;
+    width: 200px;
+    line-height: 25px;
+    padding: 0 7px;
+}
+.authorizationBlock input:first-child{
+    margin-right: 10px;
+}
+.authorizationBlock button{
+    border: 0;
+    padding: 0;
+    visibility: hidden;
+}
+.waitingText {
+    font-size: 13px;
+    color: #fff;
+}
+
+
+/*Nearest Talk*/
+.nearestTalkWrapper{
+    width: 75%;
+    margin: 5% auto 10%;
+    min-height: 90px;
+}
+.nearestTalk{
+    padding-left: 150px;
+}
+.nearestTalk .bigAvatar{
+    margin-left: -130px;
+}
+
+.whereInfo{
+    line-height: 16px;
+    font-size: 13px;
+    color: #222629;
+}
+.talkTitle{
+    margin-top: 10px;
+    font-family: 'OpenSans_Light', Arial, san-serif;
+    font-size: 37px;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.nearestTalkComments{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.yellowComment{
+    height: 16px;
+    width: 23px;
+    float: left;
+    background: url('../images/main-sprite.png') 0 -60px;
+}
+
+/*Idea Button*/
+
+#addIdea {
+    position: absolute;
+    top: -140px;
+    left: 50%;
+    margin-left: -90px;
+    border-radius: 90px;
+    display: block;
+    width: 180px;
+    height: 180px;
+    color: #505050;
+    background: #fcda04;
+    cursor: pointer;
+    z-index: 10;
+}
+.pencilPic{
+    margin: 37px auto 20px;
+    height: 37px;
+    width: 37px;
+    background: url('../images/main-sprite.png') top left;
+}
+.addButtonText {
+    margin: auto;
+    width: 110px;
+    text-align: center;
+    line-height: 19px;
+    font-family: 'OpenSans_Semibold';
+    font-size: 18px;
+    font-weight: bold;
+}
+#addIdea:hover{
+    background: #2c3236;
+    color: #fff;
+}
+#addIdea:hover .pencilPic{
+    background-position: top right;
+}
+
+/*Idea Block*/
+.allIdeasContainer{
+    position: relative;
+}
+.ideaBlock{
+    float: left;
+    display: block;
+    margin: 0 1% 1.5%;
+    width: 23%;
+    height: 220px;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-decoration: none;
+    color: #505050;
+}
+.ideaWrap{
+    display: table;
+    padding: 10.2% 20px 20px;
+    height: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.contentWrap{
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.contentIdea{
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-height: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.socialBlock{
+    width: 100%;
+}
+
+.likePic, .commentPic{
+    float: left;
+    margin-right: 8px;
+    height: 29px;
+    padding: 0 8px 0 26px;
+    font-size: 10px;
+    font-family: "OpenSans_Bold";
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    line-height: 29px;
+    display: inline-block;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.likePic{
+    background: #dedfdf url('../images/main-sprite.png') -27px -89px no-repeat;
+}
+.commentPic{
+    background: #dedfdf url('../images/main-sprite.png') -28px -55px no-repeat;
+}
+.ideaBlock:hover{
+    background: #2c3236;
+    color: #fff;
+}
+.ideaBlock:hover .likePic {
+     color: #fff;
+     background: #41474a url('../images/main-sprite.png') 10px -89px no-repeat;
+ }
+.ideaBlock:hover .commentPic{
+    color: #fff;
+    background: #41474a url('../images/main-sprite.png') 10px -55px no-repeat;
+}
+
+.likePic:hover {
+    color: #2c3236;
+    background: #fcda04 url('../images/main-sprite.png') -27px -89px no-repeat;
+}
+
+.ideaBlock .commentPic:hover {
+    color: #2c3236;
+    background: #fcda04 url('../images/main-sprite.png') 11px -125px no-repeat;
+}
+
+
+/*Popup*/
+#addIdeaContainer, #ideaWithCommentsBlock{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 997;
+}
+.ng-hide{
+    display: none;
+}
+/*Add Idea PoPup*/
+.overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #fcda04;
+    opacity: 0.95;
+    filter: alpha(opacity=95);
+}
+.popupContainerWrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.popupContainer{
+    position: absolute;
+    height: 60%;
+    top: 15%;
+    left: 12.5%;
+    right: 12.5%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    -moz-appearance: none;
+    overflow: auto;
+}
+.addNewIdeaText{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    min-height: 40%;
+    font-size: 37px;
+    z-index: 998;
+    width: 90%;
+    background: transparent;
+    text-align: center;
+    font-family: "OpenSans_Light";
+}
+.submitIdeaButton {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -90px;
+    padding-top: 15px;
+    width: 180px;
+    height: 180px;
+    font-size: 18px;
+    color: #505050;
+    border: none;
+    background: #fff;
+    z-index: 999;
+    border-radius: 90px;
+    cursor: pointer;
+    -moz-appearance: none;
+    outline: none;
+}
+.closePopup{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000;
+    width: 25px;
+    height: 25px;
+    background: url('../images/main-sprite.png') left bottom no-repeat;
+    z-index: 999;
+    cursor: pointer;
+}
+input[type='submit']:hover{
+    border: none;
+}
+
+.sendIdeaButton{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -90px;
+    width: 180px;
+    height: 180px;
+    color: #505050;
+    background: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+/*Idea with comments*/
+
+#ideaWithCommentsBlock .overlay{
+    background: #2c3135;
+    opacity: 0.82;
+    filter: alpha(opacity=82);
+}
+
+.ideaCommentsContainer{
+    position: absolute;
+    width: 75%;
+    top: 15%;
+    left: 12.5%;
+    max-height: 80%;
+    display: flex;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #fff;
+}
+.commentIdeaAvatar{
+    position: absolute;
+    top: -28px;
+    left: -40px;
+    background: #fff;
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+    border-radius: 50%;
+}
+#ideaWithCommentsBlock .bigAvatar{
+    width: 110px;
+    height: 110px;
+}
+#ideaWithCommentsBlock .bigAvatar img{
+    width: 110px;
+}
+.ideaContainerWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: #666869;
+}
+.forTechtalk{
+    margin-bottom: 15px;
+}
+.commentSubmit{
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 27px 208px 27px 180px;
+    background: #ebebeb;
+}
+#ideaWithCommentsBlock .closePopup{
+    top: 37px;
+    right: 34px;
+}
+
+.ideaContentWrap{
+    padding: 45px 115px 0 180px;
+    flex-basis: auto;
+    flex: 1;
+    overflow-y: auto;
+}
+.ideaContent{
+    font-size: 37px;
+    font-family: "OpenSans_Light";
+    line-height: 47px;
+    color: #767d81;
+    margin: 0 0 20px;
+}
+.commentsBlock{
+    margin: 15px 30px 30px 0;
+   /* overflow-y: auto;
+    flex: 1;*/
+}
+.comment{
+    margin-top: 15px;
+    padding-left: 37px;
+    font-size: 13px;
+    line-height: 14px;
+}
+.comment .smallAvatar{
+    margin-left: -37px;
+}
+.author{
+    font-family: "OpenSans_Bold" ;
+}
+.commentContent{
+    font-family: "OpenSans_Regular";
+}
+.addCommentBlock{
+    flex-basis: 94px;
+    background: #ebebeb;
+    border-bottom: 1px solid #a5a6a7;
+}
+.addCommentBlock form{
+    padding: 27px 115px 27px 180px;
+}
+.commentSubmitButton{
+    height: 40px;
+    width: 4.5%;
+    background: transparent url('../images/main-sprite.png') -28px -47px no-repeat;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    -moz-appearance: none;
+}
+.addCommentInput{
+    width: 100%;
+    border: 1px solid #cacaca;
+    font-size: 14px;
+    font-family: "OpenSans_Regular";
+    border-radius: 20px;
+    color: #505050;
+    background: #fff;
+}
+.addCommentInput input[type='text']{
+    padding: 13px 0 13px 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+    -moz-appearance: none;
+    width: 95%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    vertical-align: top;
+}
+.removeButton{
+    display: none;
+    float: right;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 13px;
+    font-family: 'OpenSans_Semibold';
+}
+.comment:hover .removeButton{
+    display: inline;
+}
+.removeButton:hover{
+    text-decoration: underline;
+}
+.errorAddComment{
+    color: #666869;
+    padding: 25px 115px 0 180px;
+}
+.adminPanel{
+    margin-top: 10px;
+}
+.adminPanelItem{
+    margin: 5px 0;
+}
+.adminPanelItem label{
+    width: 150px;
+    margin-right: 20px;
+    display: block;
+    float: left;
+}
+.adminPanelItem input, .adminPanelItem select{
+    width: 400px;
+}
+.adminPanelItem input[type="date"], .adminPanelItem input[type="time"]{
+    width: 195px;
+}
+.errorClass {
+    padding: 0 40px 10px;
+    color: #e53737;
+    font-size: 14px;
+}

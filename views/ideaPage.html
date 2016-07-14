@@ -1,0 +1,111 @@
+<div id="ideaWithCommentsBlock" style="display: block;" ng-controller="commentsController">
+    <div class="overlay"></div>
+    <div class="ideaCommentsContainer">
+        <div class="commentIdeaAvatar">
+            <div class="bigAvatar">
+                <img ng-show="ideaWithComment.type=='idea'" ng-src="idea_static/images/users/{{ideaWithComment.author.photo}}">
+                <img ng-show="ideaWithComment.type=='techtalk' && !tt.ttLector" ng-src="idea_static/images/conversation.png">
+                <img ng-show="ideaWithComment.type=='techtalk' && !!tt.ttLector" ng-src="idea_static/images/users/{{ideaWithComment.ttLector.photo}}">
+            </div>
+        </div>
+        <a href="#/" class="closePopup"></a>
+
+        <div class="ideaContainerWrapper">
+            <div class="ideaContentWrap">
+
+                <div ng-hide="createTechTalk">
+                    <div data-ng-if="ideaWithComment.type=='techtalk'">
+                        <div data-ng-if="ideaWithComment.ttLector==null" class="whereInfo">Discussion</div>
+                        <div class="whereInfo">{{ideaWithComment.ttLector.name}}</div>
+                        <div class="whereInfo">{{ideaWithComment.ttDate| date: 'dd-MM-yyyy'}}, {{ideaWithComment.ttTime}} - {{ideaWithComment.ttLocation}}</div>
+                    </div>
+                    <p class="ideaContent">
+                        {{ideaWithComment.ideaText}}
+                    </p>
+
+                    <div class="socialBlock clearfix">
+                        <span class="likePic" ng-class="votedIdea(ideaWithComment.likes)" ng-click="toggleLike($event)">{{ideaWithComment.likes.length}}</span>
+                    </div>
+                </div>
+                <div ng-show="global.currentUser._id == ideaWithComment.author._id && ideaWithComment.type == 'idea'">
+                    <label>Update Idea </label><input type="checkbox" ng-model="toUpdateIdea"/>
+                    <form ng-show="toUpdateIdea" ng-submit="updateIdea()">
+                        <div class="adminPanelItem">
+                            <label>Text of Idea </label>
+                            <input type="text" ng-model="ideaWithComment.ideaText"><br>
+                            <button type="submit" class="btn btn-primary">Update</button>
+                        </div>
+                    </form>
+                </div>
+                <div ng-show="global.currentUser.role == 'admin'" class="adminPanel">
+
+                        <label ng-show="ideaWithComment.type == 'idea'">Create techtalk </label>
+                        <label ng-show="ideaWithComment.type == 'techtalk'">Update techtalk </label><input type="checkbox" ng-model="createTechTalk"/>
+
+                        <form ng-show="createTechTalk" ng-submit="submitTechTalk()">
+                            <div ng-show="ideaWithComment.type == 'techtalk'" class="adminPanelItem whereInfo">
+                                Current Date of TechTalk: {{ideaWithComment.ttDate| date: 'dd-MM-yyyy'}}, {{ideaWithComment.ttTime}}
+                            </div>
+                            <div class="adminPanelItem">
+                                <label> Date of techtalk</label>
+                                <input type="date" ng-model="ideaWithComment.ttDate" name="datetime"/>
+                                <input type="text" ng-model="ideaWithComment.ttTime" name="datetime"/>
+                            </div>
+                            <div class="errorClass">
+                                {{dateMistake}}
+                            </div>
+                            <div class="adminPanelItem">
+                                <label> Location </label><input type="text" ng-model="ideaWithComment.ttLocation" name="place" >
+                            </div>
+                            <div class="adminPanelItem">
+                                <label>TT Title </label><input type="text" ng-model="ideaWithComment.ideaText" name="ttTitle">
+                            </div>
+                            <div>
+                                <input type="checkbox" ng-model="talkType"> Discussion
+                            </div>
+                            <div ng-show="!talkType" class="adminPanelItem">
+                                <label>Lector </label>
+                                <select ng-model="ideaWithComment.ttLector" ng-options="lector as lector.name for lector in allUsers"></select>
+                            </div>
+                            <div class="errorClass">
+                                {{lectorMistake}}
+                            </div>
+                            <button ng-show="ideaWithComment.type == 'idea'" type="submit" class="btn btn-primary">Create</button>
+                            <button ng-show="ideaWithComment.type == 'techtalk'" type="submit" class="btn btn-primary">Update</button>
+                        </form>
+
+                </div>
+            <div class="commentsBlock">
+                <div class="comment" ng-repeat="comment in ideaWithComment.comments">
+                    <div class="smallAvatar">
+                        <img ng-src="idea_static/images/users/{{comment.author.photo}}">
+                    </div>
+
+                    <div class="author">
+                        <span>{{comment.author.name}}</span>
+                        <span ng-show="global.currentUser.role == 'admin' || global.currentUser._id == comment.author._id"
+                              class="removeButton" ng-click="removeComment($index)">
+                            Удалить
+                        </span>
+                    </div>
+                    <div class="commentContent">
+                        {{comment.commentText}}
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="addCommentBlock">
+                <div data-ng-if="!global.isAuthN" class="errorAddComment">Для того, что бы добавлять комментарии
+                    необходимо пройти авторизацию.
+                </div>
+                <form ng-show="global.isAuthN" ng-submit="addComment()">
+                    <div class="addCommentInput">
+                        <input type="text" ng-model="commentText" placeholder="Комментарий">
+                        <button type="submit" value="" class="commentSubmitButton"></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

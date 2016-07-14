@@ -1,0 +1,1142 @@
+{
+    "talks": [
+        {
+            "id": 1,
+            "date": "2\/22\/2013",
+            "title": "CSS via JS",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "N58",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, tempore, consequuntur suscipit harum omnis neque vitae id voluptatem assumenda quam eos saepe nulla aliquid voluptas ut modi in minima debitis!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Andrey_Demchenko@epam.com",
+                "Veranika_Mishurina@epam.com",
+                "Mikita_Khatsimtsou@epam.com",
+                "Maryna_Belavusava@epam.com",
+                "Nadzeya_Pratasava@epam.com",
+                "Valery_Zhurovich@epam.com"
+            ],
+            "tags": [
+                "css",
+                "js",
+                "prefix",
+                "xbrowser"
+            ]
+        },
+
+        {
+            "id": 2,
+            "date": "2\/27\/2013",
+            "title": "CSS via JS",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, eveniet harum libero dolor iure nulla voluptatibus aperiam aliquam? Voluptas, qui, voluptatem rerum excepturi similique dolorum consectetur cumque quisquam expedita voluptate.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Aliaksandr_Arlou@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Dmitry_Beynya@epam.com",
+                "Maria_Putyrskaya@epam.com",
+                "Viktor_Busko@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Aliaksei_Yanachkin@epam.com",
+                "Tatsiana_Hlebik@epam.com",
+                "Alena_Karaba@epam.com",
+                "Anton_Prokofyev@epam.com"
+            ],
+            "tags": [
+                "css",
+                "js",
+                "prefix",
+                "xbrowser"
+            ]
+        },
+
+        {
+            "id": 3,
+            "date": "2\/27\/2013",
+            "title": "CSS via JS",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, dolorem, quisquam, quo officiis voluptatem doloribus repudiandae reprehenderit dolor excepturi hic culpa quidem fugit nulla animi voluptas. Aspernatur perspiciatis pariatur voluptatibus.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Dzmitry_Osipau@epam.com",
+                "Raman_Vysotski@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Ivan_Straltsou@epam.com",
+                "Andrei_Valuyev@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Kirill_Malets@epam.com",
+                "Siarhei_Mikulich@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Andrew_Krook@epam.com"
+            ],
+            "tags": [
+                "css",
+                "js",
+                "prefix",
+                "xbrowser"
+            ]
+        },
+
+        {
+            "id": 4,
+            "date": "2\/25\/2013",
+            "title": "Tetris",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "N58",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, maiores facilis natus sapiente ex optio inventore ad quam veritatis atque cum quod laborum suscipit aut aperiam nihil itaque minus nam.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Andrey_Demchenko@epam.com",
+                "Veranika_Mishurina@epam.com",
+                "Mikita_Khatsimtsou@epam.com",
+                "Maryna_Belavusava@epam.com",
+                "Nadzeya_Pratasava@epam.com",
+                "Valery_Zhurovich@epam.com"
+            ],
+            "tags": [
+                "talk",
+                "algorithm",
+                "game"
+            ]
+        },
+
+        {
+            "id": 7,
+            "date": "4\/12\/2013",
+            "title": "noJS framework or \":checked\"",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "N58",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illo, a molestias tenetur facere commodi cum voluptatem laborum beatae itaque soluta voluptatum molestiae deserunt quisquam laudantium nihil sapiente. Sit, facere.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Andrey_Demchenko@epam.com",
+                "Mikita_Khatsimtsou@epam.com",
+                "Maryna_Belavusava@epam.com",
+                "Nadzeya_Pratasava@epam.com",
+                "Valery_Zhurovich@epam.com"
+            ],
+            "tags": [
+                "css",
+                "prototype"
+            ]
+        },
+
+        {
+            "id": 5,
+            "date": "3\/6\/2013",
+            "title": "Tetris",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam nostrum aperiam. Ducimus, pariatur, at, quibusdam, reiciendis sint iure hic quisquam non id inventore laborum dolorem eaque ab repudiandae iste.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Dzmitry_Osipau@epam.com",
+                "Aliaksandr_Padabed@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Ivan_Straltsou@epam.com",
+                "Volha_Bainova@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Kirill_Malets@epam.com",
+                "Siarhei_Mikulich@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Raman_Vysotski@epam.com",
+                "Andrew_Krook@epam.com",
+                "Kseniya_Smirnova@epam.com",
+                "Andrei_Valuyev@epam.com",
+                "Yulia_Douha@epam.com"
+            ],
+            "tags": [
+                "talk",
+                "algorithm",
+                "game"
+            ]
+        },
+
+        {
+            "id": 6,
+            "date": "3\/5\/2013",
+            "title": "Tetris",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, debitis, placeat, aut quibusdam at laboriosam ratione nulla nisi maxime iste enim deleniti ex officia sed qui? Praesentium sapiente voluptatum sint.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Aliaksandr_Arlou@epam.com",
+                "Yauhen_Karmyzau@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Maria_Putyrskaya@epam.com",
+                "Viktor_Busko@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Aliaksei_Yanachkin@epam.com",
+                "Tatsiana_Hlebik@epam.com",
+                "Anton_Prokofyev@epam.com",
+                "Ilya_Kvachenko@epam.com"
+            ],
+            "tags": [
+                "talk",
+                "algorithm",
+                "game"
+            ]
+        },
+
+        {
+            "id": 8,
+            "date": "4\/16\/2013",
+            "title": "Tetris",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "N186",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, qui, velit impedit libero non deserunt aliquid incidunt ipsam ducimus accusantium neque nihil voluptatum quis consequatur repellat deleniti similique inventore mollitia!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Yauheni_Pas@epam.com",
+                "Aliaksei_Rubinau@epam.com",
+                "Tatsiana_Petrushkevich@epam.com",
+                "Anton_Raby@epam.com",
+                "Dzmitry_Yurkavets@epam.com"
+            ],
+            "tags": [
+                "talk",
+                "algorithm",
+                "game"
+            ]
+        },
+
+        {
+            "id": 9,
+            "date": "3\/12\/2013",
+            "title": "Backbone",
+            "lector": ["Aliaksandr_Arlou@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, necessitatibus, repellat, voluptate aliquid deserunt illum praesentium blanditiis eius sint ab placeat porro doloremque debitis impedit perspiciatis similique recusandae dolore! Sint.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Siarhei_Mikhailau@epam.com",
+                "Raman_Vysotski@epam.com",
+                "Aliaksandr_Padabed@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Ivan_Straltsou@epam.com",
+                "Volha_Bainova@epam.com",
+                "Andrei_Valuyev@epam.com",
+                "Kseniya_Smirnova@epam.com",
+                "Dzianis_Ziankovich@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Yury_Tarasevich@epam.com",
+                "Andrew_Krook@epam.com",
+                "Yulia_Douha@epam.com",
+                "Yauhen_Karmyzau@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Dzianis_Kryvashei@epam.com",
+                "Viktor_Busko@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Aliaksei_Yanachkin@epam.com",
+                "Alena_Karaba@epam.com",
+                "Andrey_Demchenko@epam.com",
+                "Mikita_Khatsimtsou@epam.com"
+            ],
+            "tags": [
+                "backbone",
+                "mvc",
+                "js"
+            ]
+
+        },
+
+        {
+            "id": 10,
+            "date": "3\/20\/2013",
+            "title": "NodeJS",
+            "lector": ["Andrei_Barysiuk@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, officia similique in eaque accusamus voluptate quibusdam debitis possimus voluptatibus illum placeat quasi culpa cum numquam cumque modi ex. Inventore, itaque?",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Siarhei_Mikhailau@epam.com",
+                "Dzmitry_Osipau@epam.com",
+                "Stanislau_Zubovich@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Ivan_Straltsou@epam.com",
+                "Volha_Bainova@epam.com",
+                "Kseniya_Smirnova@epam.com",
+                "Dzianis_Ziankovich@epam.com",
+                "Siarhei_Mikulich@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Yury_Tarasevich@epam.com",
+                "Andrew_Krook@epam.com",
+                "Yulia_Douha@epam.com",
+                "Yauhen_Karmyzau@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Maria_Putyrskaya@epam.com",
+                "Dzianis_Kryvashei@epam.com",
+                "Viktor_Busko@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Aliaksei_Yanachkin@epam.com",
+                "Alena_Karaba@epam.com",
+                "Veranika_Mishurina@epam.com",
+                "Mikita_Khatsimtsou@epam.com"
+            ],
+            "tags": [
+                "nodejs",
+                "js",
+                "server",
+                "build",
+                "minify"
+            ]
+        },
+
+        {
+            "id": 11,
+            "date": "3\/19\/2013",
+            "title": "Web Inspector",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, sapiente, molestiae, minima, sunt ratione maiores quae aut nisi eaque adipisci eum dolorum totam ipsa esse alias incidunt id dicta quasi!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Aliaksandr_Arlou@epam.com",
+                "Yauhen_Karmyzau@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Maria_Putyrskaya@epam.com",
+                "Dzianis_Kryvashei@epam.com",
+                "Viktor_Busko@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Aliaksei_Yanachkin@epam.com",
+                "Alena_Karaba@epam.com",
+                "Ilya_Kvachenko@epam.com"
+            ],
+            "tags": [
+                "minify",
+                "js",
+                "dom",
+                "transform",
+                "algorithm",
+                "css",
+                "html"
+            ]
+        },
+
+        {
+            "id": 12,
+            "date": "3\/27\/2013",
+            "title": "Web Inspector",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, cumque, voluptatum, placeat alias eos id nemo illum provident vero similique culpa molestias ipsa error ad saepe quo porro. Ab, ea.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Dzmitry_Osipau@epam.com",
+                "Aliaksandr_Padabed@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Ivan_Straltsou@epam.com",
+                "Volha_Bainova@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Kirill_Malets@epam.com",
+                "Siarhei_Mikulich@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Yury_Tarasevich@epam.com",
+                "Andrew_Krook@epam.com",
+                "Stanislau_Zubovich@epam.com",
+                "Andrei_Valuyev@epam.com",
+                "Kseniya_Smirnova@epam.com",
+                "Dzianis_Ziankovich@epam.com"
+            ],
+            "tags": [
+                "minify",
+                "js",
+                "dom",
+                "transform",
+                "algorithm",
+                "css",
+                "html"
+            ]
+        },
+
+        {
+            "id": 13,
+            "date": "4\/10\/2013",
+            "title": "Web Inspector",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "N186",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, officia, nostrum porro possimus in itaque fuga incidunt tempore aspernatur et error reprehenderit vero perspiciatis a quod pariatur quo nobis veritatis.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Maksim_Kovalev@epam.com",
+                "Siarhei_Prudnikau@epam.com",
+                "Andrei_Dzeuhuts@epam.com",
+                "Fyodor_Yakimchouk@epam.com",
+                "Yauheni_Pas@epam.com",
+                "Aliaksei_Rubinau@epam.com",
+                "Tatsiana_Petrushkevich@epam.com",
+                "Andrei_Akula@epam.com",
+                "Anton_Raby@epam.com",
+                "Dzmitry_Yurkavets@epam.com"
+            ],
+            "tags": [
+                "minify",
+                "js",
+                "dom",
+                "transform",
+                "algorithm",
+                "css",
+                "html"
+            ]
+        },
+
+        {
+            "id": 14,
+            "date": "4\/19\/2013",
+            "title": "Web Inspector",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "N58",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, cumque, neque error nisi rerum cupiditate dolorum quaerat excepturi sapiente perspiciatis recusandae tempora voluptatem possimus mollitia accusamus consequuntur quas aut modi!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Andrey_Demchenko@epam.com",
+                "Veranika_Mishurina@epam.com",
+                "Mikita_Khatsimtsou@epam.com",
+                "Nadzeya_Pratasava@epam.com",
+                "Iryna_Dastanka@epam.com"
+            ],
+            "tags": [
+                "minify",
+                "js",
+                "dom",
+                "transform",
+                "algorithm",
+                "css",
+                "html"
+            ]
+        },
+
+        {
+            "id": 15,
+            "date": "3\/28\/2013",
+            "title": "CSS Flexbox",
+            "lector": ["Maria_Putyrskaya@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident architecto consectetur tempora perferendis explicabo assumenda molestiae mollitia voluptas. Molestiae, provident, similique dolorem autem consectetur ipsum doloribus hic vel consequuntur voluptates!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Aliaksandr_Arlou@epam.com",
+                "Yauhen_Karmyzau@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Dmitry_Beynya@epam.com",
+                "Dzianis_Kryvashei@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Siarhei_Mikhailau@epam.com"
+            ],
+            "tags": [
+                "css",
+                "flex"
+            ]
+        },
+
+        {
+            "id": 16,
+            "date": "4\/3\/2013",
+            "title": "Javascript Modularity",
+            "lector": ["Andrei_Barysiuk@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, fugiat temporibus cum illo inventore ex autem voluptas officia nulla sapiente assumenda quaerat ducimus ipsum sunt quis ut ea dignissimos aut.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Siarhei_Mikhailau@epam.com",
+                "Dzianis_Ziankovich@epam.com",
+                "Andrei_Valuyev@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Dzmitry_Osipau@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Dmitry_Beynya@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Aliaksandr_Padabed@epam.com",
+                "Yulia_Douha@epam.com",
+                "Andrei_Volkau1@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Ivan_Straltsou@epam.com",
+                "Kirill_Malets@epam.com",
+                "Yury_Tarasevich@epam.com",
+                "Stanislau_Zubovich@epam.com",
+                "Anatoli_Tsyporyn@epam.com",
+                "Dzianis_Skliar@epam.com",
+                "Kseniya_Smirnova@epam.com",
+                "Yauhen_Tsikhan@epam.com",
+                "Aliaksandr_Timbaliuc@epam.com",
+                "Aliaksandr_Arlou@epam.com",
+                "Yauhen_Karmyzau@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Dzianis_Kryvashei@epam.com",
+                "Viktor_Busko@epam.com",
+                "Maryia_Sinkevich@epam.com",
+                "Mikita_Khatsimtsou@epam.com",
+                "Pavel_Valadzko@epam.com",
+                "Maksim_Kovalev@epam.com",
+                "Igor_Boreysha@epam.com"
+            ],
+            "tags": [
+                "amd",
+                "js",
+                "build",
+                "nodejs",
+                "requirejs",
+                "commonjs",
+                "lmd",
+                "module"
+            ]
+        },
+
+        {
+            "id": 17,
+            "date": "4\/24\/2013",
+            "title": "Chrome Extensions",
+            "lector": ["Yauhen_Karmyzau@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, non earum fugit facilis neque quasi natus error accusamus repellendus odio illum expedita consequuntur libero culpa at inventore voluptatibus placeat adipisci.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Kseniya_Smirnova@epam.com",
+                "Aliaksandr_Padabed@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Stanislau_Zubovich@epam.com",
+                "Aliaksei_Patsiomkin@epam.com",
+                "Dzianis_Ziankovich@epam.com",
+                "Yury_Tarasevich@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Andrei_Volkau1@epam.com",
+                "Dmitry_Beynya@epam.com",
+                "Dmitry_Scherbatykh@epam.com",
+                "Yauhen_Tsikhan@epam.com",
+                "Olga_Bedulina@epam.com",
+                "Kirill_Malets@epam.com",
+                "Siarhei_Mikulich@epam.com",
+                "Dzmitry_Osipau@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Volha_Bainova@epam.com",
+                "Andrei_Valuyev@epam.com",
+                "Anton_Sharapa@epam.com"
+            ],
+            "tags": [
+                "chrome",
+                "extension",
+                "js"
+            ]
+        },
+
+        {
+            "id": 18,
+            "date": "4\/4\/2013",
+            "title": "Chrome Extensions",
+            "lector": ["Yauhen_Karmyzau@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, repellat natus dolor autem ullam consequuntur odit suscipit odio est ex! Quo, accusamus recusandae veritatis maxime numquam alias expedita at. Et.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Aliaksandr_Arlou@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Dmitry_Beynya@epam.com",
+                "Dzianis_Kryvashei@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Siarhei_Mikhailau@epam.com"
+            ],
+            "tags": [
+                "chrome",
+                "extension",
+                "js"
+            ]
+        },
+
+        {
+            "id": 19,
+            "date": "4\/26\/2013",
+            "title": "Chrome Extensions",
+            "lector": ["Yauhen_Karmyzau@epam.com"],
+            "location": "N58",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, praesentium, quas aliquam laudantium eum vero perferendis quam voluptatibus labore maxime neque totam nemo laborum accusantium sapiente asperiores error dolorum rerum?",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Andrey_Demchenko@epam.com",
+                "Mikita_Khatsimtsou@epam.com",
+                "Nadzeya_Pratasava@epam.com"
+            ],
+            "tags": [
+                "chrome",
+                "extension",
+                "js"
+            ]
+        },
+
+        {
+            "id": 20,
+            "date": "4\/10\/2013",
+            "title": "Javascript Animation",
+            "lector": ["Mikita_Khatsimtsou@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, nihil, aspernatur, veritatis eveniet deleniti vero dolores iste porro earum officiis quis numquam eligendi nemo libero voluptas dolor voluptates mollitia culpa.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Aliaksandr_Kurash@epam.com",
+                "Aliaksandr_Padabed@epam.com",
+                "Aliaksei_Patsiomkin@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Andrei_Volkau1@epam.com",
+                "Andrew_Krook@epam.com",
+                "Maksim_Kovalev@epam.com",
+                "Dmitry_Scherbatykh@epam.com",
+                "Kseniya_Smirnova@epam.com",
+                "Dzianis_Skliar@epam.com",
+                "Dzmitry_Osipau@epam.com",
+                "Ivan_Straltsou@epam.com",
+                "Siarhei_Mikulich@epam.com",
+                "Volha_Bainova@epam.com",
+                "Yury_Tarasevich@epam.com",
+                "Dmitry_Beynya@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Maxim_Malets@epam.com",
+                "Dzianis_Ziankovich@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Stanislau_Zubovich@epam.com",
+                "Olga_Bedulina@epam.com",
+                "Aliaksandr_Arlou@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Dzianis_Kryvashei@epam.com"
+            ],
+            "tags": [
+                "js",
+                "timeout",
+                "interval",
+                "keyframe",
+                "animation"
+            ]
+        },
+
+        {
+            "id": 21,
+            "date": "4\/5\/2013",
+            "title": "Javascript Animation",
+            "lector": ["Mikita_Khatsimtsou@epam.com"],
+            "location": "N58",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, consequatur, porro, autem nam culpa odit id iste expedita dolor incidunt hic repudiandae illo ipsam non est libero facere! Molestiae, praesentium!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Andrey_Demchenko@epam.com",
+                "Veranika_Mishurina@epam.com",
+                "Maryna_Belavusava@epam.com",
+                "Nadzeya_Pratasava@epam.com",
+                "Valery_Zhurovich@epam.com",
+                "Siarhei_Mikhailau@epam.com"
+            ],
+            "tags": [
+                "js",
+                "timeout",
+                "interval",
+                "keyframe",
+                "animation"
+            ]
+        },
+
+        {
+            "id": 22,
+            "date": "4\/11\/2013",
+            "title": "Sencha Intro",
+            "lector": ["Uladzimir_Hartsau@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis provident tempora ullam repellendus corrupti itaque corporis consectetur eius dignissimos sapiente. Corporis, recusandae illum molestias possimus pariatur eligendi magni architecto ipsum.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Aliaksandr_Arlou@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Dmitry_Beynya@epam.com",
+                "Dzianis_Kryvashei@epam.com",
+                "Viktor_Busko@epam.com",
+                "Aliaksei_Yanachkin@epam.com",
+                "Anton_Prokofyev@epam.com",
+                "Siarhei_Mikhailau@epam.com",
+                "Dzianis_Ziankovich@epam.com"
+            ],
+            "tags": [
+                "js",
+                "framework",
+                "mvc",
+                "todo"
+            ]
+        },
+
+        {
+            "id": 23,
+            "date": "4\/17\/2013",
+            "title": "10 CSS Secrets",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, corrupti, delectus distinctio dicta consectetur quod dolor soluta illo saepe obcaecati quo quas voluptate facere aliquam ea nulla aut omnis quisquam.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Dzianis_Skliar@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Siarhei_Mikulich@epam.com",
+                "Kirill_Malets@epam.com",
+                "Olga_Bedulina@epam.com",
+                "Volha_Bainova@epam.com",
+                "Dmitry_Beynya@epam.com",
+                "Dmitry_Scherbatykh@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Anatoli_Tsyporyn@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Aliaksei_Patsiomkin@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Kseniya_Smirnova@epam.com",
+                "Maria_Prinus@epam.com",
+                "Yury_Tarasevich@epam.com",
+                "Stanislau_Zubovich@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Aliaksandr_Padabed@epam.com",
+                "Dzmitry_Osipau@epam.com",
+                "Yulia_Douha@epam.com",
+                "Andrei_Valuyev@epam.com",
+                "Yauhen_Tsikhan@epam.com",
+                "Andrew_Krook@epam.com",
+                "Maxim_Malets@epam.com"
+            ],
+            "tags": [
+                "css",
+                "leaverou",
+                "transform",
+                "transition",
+                "shadow"
+            ]
+        },
+
+        {
+            "id": 24,
+            "date": "4\/18\/2013",
+            "title": "10 CSS Secrets",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, aspernatur quis natus facilis ex corporis qui tempore sint obcaecati sed. Doloribus, temporibus assumenda ex animi porro at illo delectus tempora.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Aliaksandr_Arlou@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Maria_Putyrskaya@epam.com",
+                "Dzianis_Kryvashei@epam.com",
+                "Viktor_Busko@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Aliaksei_Yanachkin@epam.com",
+                "Anton_Prokofyev@epam.com"
+            ],
+            "tags": [
+                "css",
+                "leaverou",
+                "transform",
+                "transition",
+                "shadow"
+            ]
+        },
+
+        {
+            "id": 25,
+            "date": "4\/23\/2013",
+            "title": "Widgets for Windows",
+            "lector": ["Andrei_Dzeuhuts@epam.com"],
+            "location": "N186",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, velit, ratione, vel, ea debitis incidunt minus rem est nostrum aut impedit voluptates sed nesciunt aliquam assumenda placeat ducimus tenetur voluptatem.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Yauheni_Pas@epam.com",
+                "Aliaksei_Rubinau@epam.com",
+                "Fyodor_Yakimchouk@epam.com"
+            ],
+            "tags": [
+                "css",
+                "html",
+                "js",
+                "widget",
+                "windows8",
+                "desktop"
+            ]
+        },
+
+        {
+            "id": 26,
+            "date": "4\/25\/2013",
+            "title": "Knockout.js",
+            "lector": ["Khrystsina_Tsikhanovich@epam.com", "Nadzeya_Shedava@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, rerum, illo, repudiandae natus qui nostrum voluptates ex cupiditate eaque expedita ea ad accusamus rem ullam sequi. Commodi, sunt dolor recusandae!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Aliaksandr_Arlou@epam.com",
+                "Yauhen_Karmyzau@epam.com",
+                "Maria_Putyrskaya@epam.com",
+                "Dzianis_Kryvashei@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Aliaksei_Yanachkin@epam.com",
+                "Anton_Prokofyev@epam.com",
+                "Siarhei_Mikhailau@epam.com"
+            ],
+            "tags": [
+                "js",
+                "knockout",
+                "mvvm",
+                "todo"
+            ]
+        },
+
+        {
+            "id": 27,
+            "date": "4\/30\/2013",
+            "title": "Hackaton",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, sed, earum explicabo quam voluptas nobis vero maiores deserunt nemo suscipit reprehenderit distinctio! Porro, ut nobis sed voluptate doloremque ad excepturi.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Yauhen_Karmyzau@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Maria_Putyrskaya@epam.com",
+                "Viktor_Busko@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Aliaksei_Yanachkin@epam.com"
+            ],
+            "tags": [
+                "js",
+                "css",
+                "hackaton",
+                "html",
+                "transform",
+                "transition"
+            ]
+        },
+
+        {
+            "id": 28,
+            "date": "5\/2\/2013",
+            "title": "Semantic",
+            "lector": ["Siarhei_Mikhailau@epam.com", "Aliaksei_Patsiomkin@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, enim, repellat, exercitationem harum velit atque explicabo sit dolorum ipsa praesentium vel cupiditate. Nam, esse, perferendis nemo voluptatem reiciendis sit officia.",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Siarhei_Mikulich@epam.com",
+                "Dzmitry_Osipau@epam.com",
+                "Dmitry_Beynya@epam.com",
+                "Dzianis_Skliar@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Yauhen_Tsikhan@epam.com",
+                "Dmitry_Scherbatykh@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Volha_Bainova@epam.com",
+                "Maxim_Malets@epam.com",
+                "Andrei_Volkau1@epam.com",
+                "Stanislau_Zubovich@epam.com",
+                "Dzianis_Ziankovich@epam.com",
+                "Yury_Tarasevich@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Raman_Vysotski@epam.com",
+                "Kanstantsin_Babichau@epam.com"
+            ],
+            "tags": [
+                "talk",
+                "semantic",
+                "accessibility",
+                "recomendation"
+            ]
+        },
+
+        {
+            "id": 29,
+            "date": "5\/22\/2013",
+            "title": "MVC Introduction",
+            "lector": ["Dzianis_Ziankovich@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, facilis, officiis voluptatibus velit doloremque est culpa similique veniam alias pariatur numquam beatae! Suscipit, necessitatibus id sit error nesciunt perferendis sunt!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Yury_Tarasevich@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Kanstantsin_Babichau@epam.com",
+                "Dzianis_Skliar@epam.com",
+                "Yauhen_Tsikhan@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Andrei_Volkau1@epam.com",
+                "Andrew_Krook@epam.com",
+                "Olga_Bedulina@epam.com",
+                "Siarhei_Mikhailau@epam.com",
+                "Volha_Bainova@epam.com"
+            ],
+            "tags": [
+                "js",
+                "backend",
+                "mvc",
+                "php",
+                "oop"
+            ]
+        },
+
+        {
+            "id": 30,
+            "date": "5\/23\/2013",
+            "title": "Dev Process",
+            "lector": ["Siarhei_Mikhailau@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, facilis, officiis voluptatibus velit doloremque est culpa similique veniam alias pariatur numquam beatae! Suscipit, necessitatibus id sit error nesciunt perferendis sunt!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Yauhen_Karmyzau@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Maria_Putyrskaya@epam.com",
+                "Dzianis_Kryvashei@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Anton_Prokofyev@epam.com",
+                "Maryia_Sinkevich@epam.com"
+            ],
+            "tags": [
+                "process",
+                "agile",
+                "waterfall",
+                "microteams",
+                "developement",
+                "team"
+            ]
+        },
+
+        {
+            "id": 31,
+            "date": "5\/29\/2013",
+            "title": "CoffeeScript - Easy Access to the Good Parts of JavaScript",
+            "lector": ["Ivan_Straltsou@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, facilis, officiis voluptatibus velit doloremque est culpa similique veniam alias pariatur numquam beatae! Suscipit, necessitatibus id sit error nesciunt perferendis sunt!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Siarhei_Mikhailau@epam.com",
+                "Dzianis_Skliar@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Volha_Bainova@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Aliaksei_Patsiomkin@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Maria_Prinus@epam.com",
+                "Yury_Tarasevich@epam.com",
+                "Dzmitry_Osipau@epam.com",
+                "Yauhen_Tsikhan@epam.com",
+                "Anton_Prokofyev@epam.com",
+                "Kanstantsin_Babichau@epam.com",
+                "Dzianis_Ziankovich@epam.com",
+                "Andrei_Volkau1@epam.com",
+                "Marina_Kamayeva@epam.com",
+                "Igor_Mishurin@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Viktor_Busko@epam.com"
+            ],
+            "tags": [
+                "js",
+                "coffee"
+            ]
+        },
+
+        {
+            "id": 34,
+            "date": "6\/20\/2013",
+            "title": "From Non-Intuitive JS Parts to JS OOP",
+            "lector": ["Raman_Vysotski@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, facilis, officiis voluptatibus velit doloremque est culpa similique veniam alias pariatur numquam beatae! Suscipit, necessitatibus id sit error nesciunt perferendis sunt!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Siarhei_Mikhailau@epam.com",
+                "Dzianis_Skliar@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Ivan_Straltsou@epam.com",
+                "Aliaksei_Patsiomkin@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Olga_Bedulina@epam.com",
+                "Dzianis_Ziankovich@epam.com",
+                "Siarhei_Fedarovich@epam.com",
+                "Yauhen_Tsikhan@epam.com",
+                "Siarhei_Vaitehovich@epam.com",
+                "Kseniya_Smirnova@epam.com",
+                "Dzmitry_Osipau@epam.com",
+                "Marina_Kamayeva@epam.com",
+                "Andrei_Valuyev@epam.com",
+                "Maxim_Malets@epam.com",
+                "Aleh_Nadolskiy@epam.com",
+                "Yauhen_Karmyzau@epam.com",
+                "Uladzimir_Hartsau@epam.com"
+            ],
+            "tags": [
+                "js",
+                "valilla",
+                "native",
+                "oop"
+            ]
+        },
+
+        {
+            "id": 32,
+            "date": "6\/20\/2013",
+            "title": "MongoDB + NodeJS",
+            "lector": ["Dzianis_Kryvashei@epam.com"],
+            "location": "K1+K10",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, facilis, officiis voluptatibus velit doloremque est culpa similique veniam alias pariatur numquam beatae! Suscipit, necessitatibus id sit error nesciunt perferendis sunt!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Siarhei_Mikhailau@epam.com",
+                "Dzianis_Ziankovich@epam.com",
+                "Aliaksandr_Arlou@epam.com",
+                "Yauhen_Karmyzau@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Tatsiana_Hlebik@epam.com",
+                "Alena_Karaba@epam.com",
+                "Anton_Prokofyev@epam.com"
+            ],
+            "tags": [
+                "js",
+                "nodejs",
+                "mongodb"
+            ]
+        },
+
+        {
+            "id": 33,
+            "date": "7\/24\/2013",
+            "title": "NodeJS, npm, express",
+            "lector": ["Andrei_Volkau1@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, facilis, officiis voluptatibus velit doloremque est culpa similique veniam alias pariatur numquam beatae! Suscipit, necessitatibus id sit error nesciunt perferendis sunt!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Siarhei_Mikhailau@epam.com",
+                "Dzianis_Skliar@epam.com",
+                "Aliaksandr_Kurash@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Aliaksei_Patsiomkin@epam.com",
+                "Raman_Vysotski@epam.com",
+                "Ilya_Valasiuk@epam.com",
+                "Aliaksandr_Padabed@epam.com",
+                "Dzmitry_Osipau@epam.com",
+                "Olga_Bedulina@epam.com",
+                "Dzianis_Ziankovich@epam.com",
+                "Marina_Kamayeva@epam.com",
+                "Siarhei_Simanovich@epam.com",
+                "Siarhei_Vaitehovich@epam.com",
+                "Aliaksandr_Hudkou@epam.com",
+                "Veranika_Baradzina@epam.com",
+                "Katsiaryna_Utlik@epam.com",
+                "Siarhei_Fedarovich@epam.com",
+                "Maxim_Malets@epam.com",
+                "Tatsiana_Hlebik@epam.com"
+            ],
+            "tags": [
+                "js",
+                "nodejs",
+                "backend",
+                "npm",
+                "express"
+            ]
+        },
+
+        {
+            "id": 35,
+            "date": "9\/13\/2013",
+            "title": "Creating blog using Node.js. Template engines and REST",
+            "lector": ["Andrei_Volkau1@epam.com"],
+            "location": "K1\/3",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, facilis, officiis voluptatibus velit doloremque est culpa similique veniam alias pariatur numquam beatae! Suscipit, necessitatibus id sit error nesciunt perferendis sunt!",
+            "level": "D1-D5",
+            "notes": "",
+            "attendees": [
+                "Siarhei_Mikhailau@epam.com",
+                "Volha_Bainova@epam.com",
+                "Uladzimir_Hartsau@epam.com",
+                "Kanstantsin_Babichau@epam.com",
+                "Alena_Karaba@epam.com",
+                "Aliaksei_Tryputsen@epam.com",
+                "Ilya_Valasiuk@epam.com",
+                "Raman_Vysotski@epam.com",
+                "Khrystsina_Tsikhanovich@epam.com",
+                "Nadzeya_Shedava@epam.com",
+                "Viktor_Busko@epam.com",
+                "Siarhei_Vaitehovich@epam.com",
+                "Dzmitry_Osipau@epam.com",
+                "Anton_Sharapa@epam.com",
+                "Nikolay_Zhgirovsky@epam.com",
+                "Veranika_Baradzina@epam.com",
+                "Katsiaryna_Utlik@epam.com",
+                "Marina_Kamayeva@epam.com",
+                "Ivan_Straltsou@epam.com"
+            ],
+            "tags": [
+                "js",
+                "nodejs",
+                "backend",
+                "npm",
+                "express",
+                "rest"
+            ]
+        }
+    ]
+}
